@@ -1,0 +1,6 @@
+let flag = 1;
+
+do {
+  console.log(flag);
+  flag += 1;
+} while (flag < 10);
