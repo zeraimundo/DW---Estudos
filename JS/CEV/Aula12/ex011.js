@@ -5,6 +5,6 @@ if (idade <18) {
 else if (idade >=18 && idade <=65) {
     console.log(`Sua idade é de ${idade} anos, voce é adulto!`)
 }
-else /*(idade >65)*/ {
+else /*else.if (idade >65)*/ {
     console.log(`Sua idade é de ${idade} anos, voce é idoso!`)
 }
