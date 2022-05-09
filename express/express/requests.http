@@ -1,0 +1,16 @@
+### Hello EN
+
+GET http://localhost:3000/hello/en?name=Luiz
+
+### Hello PT
+
+GET http://localhost:3000/hello/pt/Luiz
+
+### Hello ES
+
+POST http://localhost:3000/hello/es
+Content-Type: application/json
+
+{
+  "name": "Luiz"
+}
